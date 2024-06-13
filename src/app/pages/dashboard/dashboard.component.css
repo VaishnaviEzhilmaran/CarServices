@@ -1,0 +1,56 @@
+/* Resetting default margin and padding */
+body,
+table,
+tr,
+td,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Table layout and spacing */
+.table-wrap {
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-spacing: 0;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+  vertical-align: top;
+  min-width: 320px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+/* Text styles */
+.text-center {
+  text-align: center;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+.highlight {
+  color: #fb0000;
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  }

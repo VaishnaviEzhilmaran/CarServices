@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .aboutus-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    background-image: url('/assets/car rental services.jpg');
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #007bff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  li::before {
+    content: "•";
+    color: #007bff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
